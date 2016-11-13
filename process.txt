@@ -1,0 +1,21 @@
+What are the files?
+manifest.json --> manifest file that google chrome communicactes with
+adjustment.js --> the JS file that contains the logic to adjust setting (eg. word complexity)
+replace.js --> The JS file that contains the logic to replace the words in the webpage using content_scripts
+popup.html --> The HTML file that contains the display for the popup
+
+Files to add?
+a css file to make popup.html look nice?
+
+
+
+UTTER BASIC STEPS
+
+Step 1:
+Go through the DOM and find the words to replace
+
+Step 2:
+Find synonyms to replace each and replace each
+
+Step 3:
+Send the resulting DOM to Chrome to load
